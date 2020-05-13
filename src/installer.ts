@@ -30,7 +30,7 @@ export async function installCordova(version?: string) {
  * https://www.npmjs.com/package/ionic
  */
 export async function installIonic(version?: string) {
-    await installNpmPkg('ionic', version);
+    await installNpmPkg('@ionic/cli', version);
 }
 
 /**
